@@ -1,3 +1,6 @@
+server:
+  port: 9090
+
 spring:
   datasource:
     url: "jdbc:h2:mem:testdb"
@@ -9,6 +12,3 @@ spring:
       enabled: true
   profiles:
     active: loadInitialData
-
-  server:
-    port: 9090
